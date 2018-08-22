@@ -1,0 +1,51 @@
+{
+  "name": "casl-django-nuxt",
+  "version": "0.0.1",
+  "description": "Generates rules from the app to load into Casl-Django",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "José Carlos López <carlos@nopalcreativa.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/apexJCL/casl-django-nuxt",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "yarn run prepare & nuxt test/fixture",
+    "lint": "eslint lib test & eslint src test",
+    "test": "yarn run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "prepare": "babel src -d casl-django"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "codecov": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jest": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint-plugin-vue": "latest",
+    "jest": "latest",
+    "jsdom": "latest",
+    "nuxt": "latest",
+    "standard-version": "latest",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

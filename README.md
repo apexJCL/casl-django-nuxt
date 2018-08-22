@@ -6,6 +6,9 @@
 [![Dependencies](https://david-dm.org/apexJCL/casl-django-nuxt/status.svg?style=flat-square)](https://david-dm.org/apexJCL/casl-django-nuxt)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
+
+[**Check out CASL**](https://github.com/stalniy/casl)
+
 > Generate CASL rules for navigation based on nuxt routes.
 > To be used with casl-django
 

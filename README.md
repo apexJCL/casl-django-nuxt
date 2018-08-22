@@ -35,6 +35,10 @@ in your django project to get going with default rules you can assign to your us
 ## Usage
 
 + Add `casl-django-nuxt` to your `modules`
++ Build your project with `yarn run build`
+
+This will generate a `json` file called `rules.json` inside `dist/_nuxt`, copy that
+to your Django app fixtures folder and load it.
 
 ```js
 {

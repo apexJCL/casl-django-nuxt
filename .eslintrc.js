@@ -9,10 +9,6 @@ module.exports = {
     jest: true
   },
   extends: 'standard',
-  overrides: {
-    files: ['lib/*.js'],
-    excludedFiles: ['casl-django/*.js']
-  },
   plugins: [
     'jest',
     'vue'

@@ -18,7 +18,7 @@
     "lint": "eslint lib test & eslint src test",
     "test": "yarn run lint && jest",
     "release": "standard-version && git push --follow-tags && npm publish",
-    "prepare": "babel src -d casl-django"
+    "prepare": "babel src -d lib/casl-django"
   },
   "eslintIgnore": [
     "lib/templates/*.*"

@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 <a name="0.0.2"></a>
 ## 0.0.2 (2019-01-24)
-
++ Fixed pk generation
 
 
 # v0.0.1

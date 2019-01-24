@@ -1,6 +1,6 @@
 {
   "name": "casl-django-nuxt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generates rules from the app to load into Casl-Django",
   "license": "MIT",
   "contributors": [
